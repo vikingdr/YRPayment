@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B3EFAF1232DCBC100F059AF /* OCRAStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0B3EFAF0232DCBC100F059AF /* OCRAStd.otf */; };
+		FB39D80E22BF69EE004DAE60 /* YRPaymentCreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB39D80D22BF69EE004DAE60 /* YRPaymentCreditCard.swift */; };
+		FB39D81022BF8236004DAE60 /* YRPayment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBADEDB122BF646A00737BCE /* YRPayment.framework */; };
+		FB39D81122BF8236004DAE60 /* YRPayment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FBADEDB122BF646A00737BCE /* YRPayment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB39D82022C485F9004DAE60 /* YRPayment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB39D81F22C485F9004DAE60 /* YRPayment.swift */; };
+		FB39D82222C48B6C004DAE60 /* YRTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB39D82122C48B6C004DAE60 /* YRTools.swift */; };
+		FBADEDB622BF646A00737BCE /* YRPayment.h in Headers */ = {isa = PBXBuildFile; fileRef = FBADEDB422BF646A00737BCE /* YRPayment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBADEDC322BF64C400737BCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEDC222BF64C400737BCE /* AppDelegate.swift */; };
+		FBADEDC522BF64C400737BCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEDC422BF64C400737BCE /* ViewController.swift */; };
+		FBADEDCA22BF64C600737BCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBADEDC922BF64C600737BCE /* Assets.xcassets */; };
+		FBADEDCD22BF64C600737BCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBADEDCB22BF64C600737BCE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB39D81222BF8236004DAE60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBADEDA822BF646900737BCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBADEDB022BF646900737BCE;
+			remoteInfo = YRPayment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB39D81422BF8236004DAE60 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FB39D81122BF8236004DAE60 /* YRPayment.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B3EFAF0232DCBC100F059AF /* OCRAStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCRAStd.otf; sourceTree = "<group>"; };
+		FB39D80D22BF69EE004DAE60 /* YRPaymentCreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRPaymentCreditCard.swift; sourceTree = "<group>"; };
+		FB39D81F22C485F9004DAE60 /* YRPayment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRPayment.swift; sourceTree = "<group>"; };
+		FB39D82122C48B6C004DAE60 /* YRTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YRTools.swift; sourceTree = "<group>"; };
+		FBADEDB122BF646A00737BCE /* YRPayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YRPayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBADEDB422BF646A00737BCE /* YRPayment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YRPayment.h; sourceTree = "<group>"; };
+		FBADEDB522BF646A00737BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBADEDC022BF64C400737BCE /* YRPaymentExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YRPaymentExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBADEDC222BF64C400737BCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBADEDC422BF64C400737BCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBADEDC922BF64C600737BCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBADEDCC22BF64C600737BCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBADEDCE22BF64C600737BCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBADEDAE22BF646900737BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADEDBD22BF64C400737BCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB39D81022BF8236004DAE60 /* YRPayment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB39D80F22BF8236004DAE60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB39D81722C1BE75004DAE60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B3EFAF0232DCBC100F059AF /* OCRAStd.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FBADEDA722BF646900737BCE = {
+			isa = PBXGroup;
+			children = (
+				FBADEDB322BF646A00737BCE /* YRPayment */,
+				FBADEDC122BF64C400737BCE /* YRPaymentExample */,
+				FBADEDB222BF646A00737BCE /* Products */,
+				FB39D80F22BF8236004DAE60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBADEDB222BF646A00737BCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEDB122BF646A00737BCE /* YRPayment.framework */,
+				FBADEDC022BF64C400737BCE /* YRPaymentExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBADEDB322BF646A00737BCE /* YRPayment */ = {
+			isa = PBXGroup;
+			children = (
+				FB39D81722C1BE75004DAE60 /* Resources */,
+				FBADEDB422BF646A00737BCE /* YRPayment.h */,
+				FBADEDB522BF646A00737BCE /* Info.plist */,
+				FB39D80D22BF69EE004DAE60 /* YRPaymentCreditCard.swift */,
+				FB39D81F22C485F9004DAE60 /* YRPayment.swift */,
+				FB39D82122C48B6C004DAE60 /* YRTools.swift */,
+			);
+			path = YRPayment;
+			sourceTree = "<group>";
+		};
+		FBADEDC122BF64C400737BCE /* YRPaymentExample */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEDC222BF64C400737BCE /* AppDelegate.swift */,
+				FBADEDC422BF64C400737BCE /* ViewController.swift */,
+				FBADEDC922BF64C600737BCE /* Assets.xcassets */,
+				FBADEDCB22BF64C600737BCE /* LaunchScreen.storyboard */,
+				FBADEDCE22BF64C600737BCE /* Info.plist */,
+			);
+			path = YRPaymentExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		FBADEDAC22BF646900737BCE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADEDB622BF646A00737BCE /* YRPayment.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		FBADEDB022BF646900737BCE /* YRPayment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBADEDB922BF646A00737BCE /* Build configuration list for PBXNativeTarget "YRPayment" */;
+			buildPhases = (
+				FBADEDAC22BF646900737BCE /* Headers */,
+				FBADEDAD22BF646900737BCE /* Sources */,
+				FBADEDAE22BF646900737BCE /* Frameworks */,
+				FBADEDAF22BF646900737BCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YRPayment;
+			productName = YRPayment;
+			productReference = FBADEDB122BF646A00737BCE /* YRPayment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBADEDBF22BF64C400737BCE /* YRPaymentExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBADEDCF22BF64C600737BCE /* Build configuration list for PBXNativeTarget "YRPaymentExample" */;
+			buildPhases = (
+				FBADEDBC22BF64C400737BCE /* Sources */,
+				FBADEDBD22BF64C400737BCE /* Frameworks */,
+				FBADEDBE22BF64C400737BCE /* Resources */,
+				FB39D81422BF8236004DAE60 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB39D81322BF8236004DAE60 /* PBXTargetDependency */,
+			);
+			name = YRPaymentExample;
+			productName = YRPaymentExample;
+			productReference = FBADEDC022BF64C400737BCE /* YRPaymentExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBADEDA822BF646900737BCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yassir RAMDANI";
+				TargetAttributes = {
+					FBADEDB022BF646900737BCE = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1100;
+					};
+					FBADEDBF22BF64C400737BCE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FBADEDAB22BF646900737BCE /* Build configuration list for PBXProject "YRPayment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBADEDA722BF646900737BCE;
+			productRefGroup = FBADEDB222BF646A00737BCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBADEDB022BF646900737BCE /* YRPayment */,
+				FBADEDBF22BF64C400737BCE /* YRPaymentExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBADEDAF22BF646900737BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3EFAF1232DCBC100F059AF /* OCRAStd.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADEDBE22BF64C400737BCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADEDCD22BF64C600737BCE /* LaunchScreen.storyboard in Resources */,
+				FBADEDCA22BF64C600737BCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBADEDAD22BF646900737BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB39D82222C48B6C004DAE60 /* YRTools.swift in Sources */,
+				FB39D80E22BF69EE004DAE60 /* YRPaymentCreditCard.swift in Sources */,
+				FB39D82022C485F9004DAE60 /* YRPayment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADEDBC22BF64C400737BCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADEDC522BF64C400737BCE /* ViewController.swift in Sources */,
+				FBADEDC322BF64C400737BCE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB39D81322BF8236004DAE60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBADEDB022BF646900737BCE /* YRPayment */;
+			targetProxy = FB39D81222BF8236004DAE60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBADEDCB22BF64C600737BCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBADEDCC22BF64C600737BCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBADEDB722BF646A00737BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FBADEDB822BF646A00737BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBADEDBA22BF646A00737BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UFGY99PZ97;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YRPayment/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikingdr.YRPayment;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBADEDBB22BF646A00737BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UFGY99PZ97;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = YRPayment/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikingdr.YRPayment;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBADEDD022BF64C600737BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFGY99PZ97;
+				INFOPLIST_FILE = YRPaymentExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikingdr.YRPaymentExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBADEDD122BF64C600737BCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFGY99PZ97;
+				INFOPLIST_FILE = YRPaymentExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikingdr.YRPaymentExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBADEDAB22BF646900737BCE /* Build configuration list for PBXProject "YRPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADEDB722BF646A00737BCE /* Debug */,
+				FBADEDB822BF646A00737BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBADEDB922BF646A00737BCE /* Build configuration list for PBXNativeTarget "YRPayment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADEDBA22BF646A00737BCE /* Debug */,
+				FBADEDBB22BF646A00737BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBADEDCF22BF64C600737BCE /* Build configuration list for PBXNativeTarget "YRPaymentExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADEDD022BF64C600737BCE /* Debug */,
+				FBADEDD122BF64C600737BCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBADEDA822BF646900737BCE /* Project object */;
+}
